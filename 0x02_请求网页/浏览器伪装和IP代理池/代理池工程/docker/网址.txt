@@ -1,0 +1,3 @@
+docker用于存放镜像源的网址:https://index.docker.io/
+
+软件下载链接:https://www.docker.com/products/docker-desktop或http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/
