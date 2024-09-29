@@ -1,0 +1,6 @@
+[run]
+branch = true
+include = scrapy/*
+omit =
+  tests/*
+disable_warnings = include-ignored

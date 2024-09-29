@@ -1,0 +1,5 @@
+官方链接:
+https://doc.scrapy.org/en/latest/topics/spiders.html
+中文文档链接:
+https://scrapy-chs.readthedocs.io/zh_CN/1.0/intro/overview.html
+https://oner-wv.gitbooks.io/scrapy_zh/content/
