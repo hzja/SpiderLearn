@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="overflow-y:scroll;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="keywords" content="kindle漫画,mobi漫画,漫画下载,漫画推送,Kobo漫画,epub漫画"/>
+<meta name="description" content="高清Kindle格式漫画下载，支持推送漫画到kindle设备。">
+<meta name="viewport" content="width=1200,user-scalable=0">
+<title>Mox.moe [Kindle漫畫|Kobo漫畫|epub漫畫] [vol.moe]</title>
+<link rel="apple-touch-icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/zxweb.css?0518" type="text/css" />
+</head>
+<body>
+<div class="top_nav">
+  <div class="nav_logo">
+    <a href="https://vol.moe/"><img id="sitelogo" src="/img/vol.moe.png" border="0" alt="logo" /></a>
+  </div>
+  <div class="nav_banner">
+  </div>
+  <form action="https://vol.moe/list.php" method="get" name="search2">
+  <div class="nav_search">
+    漫畫：&nbsp;
+    <input type=text name="s" maxlength="100" class="input_sml" style="width:180px;"> &nbsp;
+    <button type="submit" class="bt_sml_main">搜索漫畫</button>
+  </div>
+  </form>
+  <div class="nav_user">
+	<a href="https://vol.moe/login.php">登錄</a>｜
+    <a href="https://vol.moe/mycomic.php">上傳漫畫</a> ｜
+	<a href="/c/10001.htm">問題反饋</a> ｜
+    <a href="https://vol.moe/donate.php">支持成為VIP</a>
+  </div>
+</div>
+<div class="nav_line"></div>
+
+<!-- content -->
+<center class="bg_gray_light">
+    <table class="book_list">
+        <tr>
+            <td style="text-align:left;" colspan="5">
+                　　　　分類：
+                <!-- font style="background-color:#66CCFF">&nbsp;{STEXT_TYPE_DISP}&nbsp;</font>
+                <br / -->
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/"
+                    id="sel_type_all">&nbsp;全部&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*幽默,all,all,sortpoint,all,all/"
+                    id="sel_type_幽默">&nbsp;幽默&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*愛情,all,all,sortpoint,all,all/"
+                    id="sel_type_愛情">&nbsp;愛情&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*競技,all,all,sortpoint,all,all/"
+                    id="sel_type_競技">&nbsp;競技&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*熱血,all,all,sortpoint,all,all/"
+                    id="sel_type_熱血">&nbsp;熱血&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*格鬥,all,all,sortpoint,all,all/"
+                    id="sel_type_格鬥">&nbsp;格鬥&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*冒險,all,all,sortpoint,all,all/"
+                    id="sel_type_冒險">&nbsp;冒險&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*恐怖,all,all,sortpoint,all,all/"
+                    id="sel_type_恐怖">&nbsp;恐怖&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*生存,all,all,sortpoint,all,all/"
+                    id="sel_type_生存">&nbsp;生存&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*懸疑,all,all,sortpoint,all,all/"
+                    id="sel_type_懸疑">&nbsp;懸疑&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*偵探,all,all,sortpoint,all,all/"
+                    id="sel_type_偵探">&nbsp;偵探&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*歷史,all,all,sortpoint,all,all/"
+                    id="sel_type_歷史">&nbsp;歷史&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*戰爭,all,all,sortpoint,all,all/"
+                    id="sel_type_戰爭">&nbsp;戰爭&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*生活,all,all,sortpoint,all,all/"
+                    id="sel_type_生活">&nbsp;生活&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*勵志,all,all,sortpoint,all,all/"
+                    id="sel_type_勵志">&nbsp;勵志&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*校園,all,all,sortpoint,all,all/"
+                    id="sel_type_校園">&nbsp;校園&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*職場,all,all,sortpoint,all,all/"
+                    id="sel_type_職場">&nbsp;職場&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*美食,all,all,sortpoint,all,all/"
+                    id="sel_type_美食">&nbsp;美食&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*藝術,all,all,sortpoint,all,all/"
+                    id="sel_type_藝術">&nbsp;音樂舞蹈&nbsp;</a>
+                <br />
+                <!-- -->　　　　　　　<!-- -->
+                <a href="https://vol.moe/l/CAT*機戰,all,all,sortpoint,all,all/"
+                    id="sel_type_機戰">&nbsp;機戰&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*科幻,all,all,sortpoint,all,all/"
+                    id="sel_type_科幻">&nbsp;科幻&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*魔幻,all,all,sortpoint,all,all/"
+                    id="sel_type_魔幻">&nbsp;魔幻&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*魔法,all,all,sortpoint,all,all/"
+                    id="sel_type_魔法">&nbsp;魔法&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*奇幻,all,all,sortpoint,all,all/"
+                    id="sel_type_奇幻">&nbsp;奇幻&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*神鬼,all,all,sortpoint,all,all/"
+                    id="sel_type_神鬼">&nbsp;神鬼&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*武俠,all,all,sortpoint,all,all/"
+                    id="sel_type_武俠">&nbsp;武俠&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*仙俠,all,all,sortpoint,all,all/"
+                    id="sel_type_仙俠">&nbsp;仙俠&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*治癒,all,all,sortpoint,all,all/"
+                    id="sel_type_治癒">&nbsp;治癒&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*萌系,all,all,sortpoint,all,all/"
+                    id="sel_type_萌系">&nbsp;萌系&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*宅系,all,all,sortpoint,all,all/"
+                    id="sel_type_宅系">&nbsp;宅系&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*青年,all,all,sortpoint,all,all/"
+                    id="sel_type_青年">&nbsp;青年&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*少年,all,all,sortpoint,all,all/"
+                    id="sel_type_少年">&nbsp;少年&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*少女,all,all,sortpoint,all,all/"
+                    id="sel_type_少女">&nbsp;少女&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*後宮,all,all,sortpoint,all,all/"
+                    id="sel_type_後宮">&nbsp;後宮&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*百合,all,all,sortpoint,all,all/"
+                    id="sel_type_百合">&nbsp;百合&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*偽娘,all,all,sortpoint,all,all/"
+                    id="sel_type_偽娘">&nbsp;偽娘&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*性轉,all,all,sortpoint,all,all/"
+                    id="sel_type_性轉">&nbsp;性轉換&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*耽美,all,all,sortpoint,all,all,none/"
+                    id="sel_type_耽美">&nbsp;耽美&nbsp;</a><a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/"  title="過濾短篇耽美"
+                    id="sel_igno_耽美">X</a><a href="https://vol.moe/l/all,all,all,sortpoint,all,all,none/" title="取消過濾短篇耽美"
+                    id="sel_igno_clean_耽美"></a>
+                <br />
+                <!-- -->　　　　　　　<!-- -->
+                <a href="https://vol.moe/l/CAT*四格,all,all,sortpoint,all,all/"
+                    id="sel_type_四格">&nbsp;四格&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*繪本,all,all,sortpoint,all,all/"
+                    id="sel_type_繪本">&nbsp;繪本&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*輕改,all,all,sortpoint,all,all/"
+                    id="sel_type_輕改">&nbsp;輕小說改編&nbsp;</a>
+                <a href="https://vol.moe/l/CAT*連環畫,all,all,sortpoint,all,all/"
+                    id="sel_type_連環畫">&nbsp;連環畫&nbsp;</a>
+                <br /><div style="height:15px"></div>
+                　　　　語言：
+                <!-- font style="background-color:#66CCFF">&nbsp;全部&nbsp;</font -->
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/"
+                    id="sel_lang_all">&nbsp;全部&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,chn,all,BL/"
+                    id="sel_lang_chn">&nbsp;中文&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,jpn,all,BL/"
+                    id="sel_lang_jpn">&nbsp;日語&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,eng,all,BL/"
+                    id="sel_lang_eng">&nbsp;英文&nbsp;</a>
+                &nbsp;&nbsp;　　　　　地區：
+                <!-- font style="background-color:#66CCFF">&nbsp;全部&nbsp;</font -->
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/"
+                    id="sel_region_all">&nbsp;全部&nbsp;</a>
+                <a href="https://vol.moe/l/all,日本,all,sortpoint,all,all,BL/"
+                    id="sel_region_日本">&nbsp;日本&nbsp;</a>
+                <a href="https://vol.moe/l/all,歐美,all,sortpoint,all,all,BL/"
+                    id="sel_region_歐美">&nbsp;歐美&nbsp;</a>
+                <a href="https://vol.moe/l/all,港臺,all,sortpoint,all,all,BL/"
+                    id="sel_region_港臺">&nbsp;港臺&nbsp;</a>
+                <a href="https://vol.moe/l/all,大陸,all,sortpoint,all,all,BL/"
+                    id="sel_region_大陸">&nbsp;大陸&nbsp;</a>
+                <a href="https://vol.moe/l/all,韓國,all,sortpoint,all,all,BL/"
+                    id="sel_region_韓國">&nbsp;韓國&nbsp;</a>
+                &nbsp;　　　　　&nbsp;
+                本站支持 Kindle 設備自帶瀏覽器瀏覽下載
+                <br /><div style="height:15px"></div>
+                　　　　篇幅：
+                <!-- font style="background-color:#66CCFF">&nbsp;全部&nbsp;</font -->
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/"
+                    id="sel_blen_all">&nbsp;全部&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,s,BL/"
+                    id="sel_blen_s">&nbsp;短篇&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,m,BL/"
+                    id="sel_blen_m">&nbsp;中篇&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,l,BL/"
+                    id="sel_blen_l">&nbsp;長篇&nbsp;</a>
+                &nbsp;&nbsp;　　　　　狀態：
+                <!-- font style="background-color:#66CCFF">&nbsp;全部&nbsp;</font -->
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/"
+                    id="sel_status_all">&nbsp;全部&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,完結,sortpoint,all,all,BL/"
+                    id="sel_status_完結">&nbsp;完結&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,連載,sortpoint,all,all,BL/"
+                    id="sel_status_連載">&nbsp;連載&nbsp;</a>
+                &nbsp;　　　　　　　　　　&nbsp;
+                友情鏈接 : <a href="https://www.bookshop.tw" target="_blank">Bookshop.tw 購買正版漫畫，台灣直郵</a>
+                <br /><div style="height:15px"></div>
+                　　　　排序：
+                <!-- font style="background-color:#00CCFF">&nbsp;綜合&nbsp;</font -->
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/"
+                    id="sel_order_sortpoint">&nbsp;綜合排序&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,score,all,all,BL/"
+                    id="sel_order_score">&nbsp;評價排名&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,count_push,all,all,BL/"
+                    id="sel_order_count_push">&nbsp;熱度排序&nbsp;</a>
+                <!-- a href="https://vol.moe/l/all,all,all,count_mon,all,all/"
+                    id="sel_order_count_mon">&nbsp;月度排名&nbsp;</a -->
+                <a href="https://vol.moe/l/all,all,all,count_rise,all,all,BL/"
+                    id="sel_order_count_rise">&nbsp;最近熱門&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,random,all,all,BL/"
+                    id="sel_order_random">&nbsp;隨機排序&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,newadd,all,all,BL/"
+                    id="sel_order_newadd">&nbsp;最近收錄&nbsp;</a>
+                <a href="https://vol.moe/l/all,all,all,lastupdate,all,all,BL/"
+                    id="sel_order_lastupdate">&nbsp;最近更新&nbsp;</a>
+                &nbsp;　　　　　　　　　　&nbsp;
+                <!-- a href="https://mix.moe" target="_blank">Mix.moe漫畫插畫，分享你的漫畫插畫</a -->
+                <!-- 訂閱 <a href="/comic/50001.htm">Volmoe期刊</a> 熱門漫畫定期更新推送 -->
+            </td>
+        </tr>
+    </table>
+</center>
+<center class="bg_line_gary"></center>
+<div class="hr_6"></div>
+<div>
+    <table class="book_list">
+
+        <tr style="vertical-align:top">
+            <td class='listtitle' colspan="2">
+                &nbsp;全部
+                <br />
+            </td>
+            <td class='listtitle' colspan="1">
+                11430 部 / 545 頁
+                <br />
+            </td>
+            <td class='listtitle' colspan="4" style="height:56px;text-align:right;">
+                <button type="button" class="bt_sml_disa" disabled>◀︎翻十頁</button>
+                <button type="button" class="bt_sml_disa" disabled>上一頁</button>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/1.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">01</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/2.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">02</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/3.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">03</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/4.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">04</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/5.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">05</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/2.htm"><button type="button" class="bt_sml_main">下一頁</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/11.htm"><button type="button" class="bt_sml_defa">翻十頁▶︎</button></a>
+                <br />
+            </td>
+        </tr>
+
+        <tr class='listbg'>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/10009.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0001/10009.jpg!224x320?sign=1623858741-58741-0-4600636f5e8850ddcd0f2ad2dbe2f658) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>9.4</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/10009.htm'>名偵探柯南</a> <br /> [青山剛昌] <br />
+              <font class="pagefoot">第 1071-1075 話</font> <br />
+              <font class="filesize">2021-06-16</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/50047.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0081/50047.jpg!224x320?sign=1624611957-11957-0-c2eb781a5d55aff1b26b40cde6d21213) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>9.4</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/50047.htm'>庫洛魔法使 透明牌篇</a> <br /> [CLAMP] <br />
+              <font class="pagefoot">第 045-054 話</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/10206.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0001/10206.jpg!224x320?sign=1624613247-13247-0-11516ce2c1db865a0d8cb3c1a178c2e7) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.8</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/10206.htm'>絕命製裁X</a> <br /> [佐藤ショウジ] <br />
+              <font class="pagefoot">第 21 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/10848.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0002/10848.jpg!224x320?sign=1624273722-73722-0-a6928a6ef25b5d593aab9dc8fefd000f) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>8.8</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/10848.htm'>賭博墮天錄-和也篇</a> <br /> [福本伸行] <br />
+              <font class="pagefoot">第 386-390 話</font> <br />
+              <font class="filesize">2021-06-21</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/10870.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0002/10870.jpg!224x320endch?sign=1624610914-10914-0-c4bc20b95bb75c671bcea0568e8f1086) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.8</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/10870.htm'>美眉憋不住</a> <br /> [走馬燈,ソウマトウ] <br />
+              <font class="pagefoot">第 06 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/53239.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0087/53239.jpg!224x320?sign=1624612956-12956-0-9f4c11f9906929ca414c0ed4d0c77a85) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>8.0</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/53239.htm'>我妹的時尚宅男改造計畫</a> <br /> [縞野やえ] <br />
+              <font class="pagefoot">第 08 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/18534.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0018/18534.jpg!224x320?sign=1624627707-27707-0-402bbaf0ae217764f4ddbde56d52e28a) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.2</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/18534.htm'>愛吃拉麵的小泉同學</a> <br /> [鳴見なる] <br />
+              <font class="pagefoot">第 08 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+        </tr> 
+
+        <tr class='listbg'>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/51258.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0083/51258.jpg!224x320endch?sign=1624611035-11035-0-0748d040c46ab267e23025a97ec326ca) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.5</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/51258.htm'>食戟之靈 L'etoile</a> <br /> [伊藤美智子,昭時大紀,佐伯俊] <br />
+              <font class="pagefoot">第 07 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/17480.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0015/17480.jpg!224x320?sign=1624629136-29136-0-a8bf9d3e11f87c0774bbce50c9a40203) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>8.1</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/17480.htm'>敬啟者：我與殺手小姐結婚了</a> <br /> [高坂曇天] <br />
+              <font class="pagefoot">第 01 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/15496.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0011/15496.jpg!224x320?sign=1624629257-29257-0-142430fe1d75d1e004af13f558042042) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.3</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/15496.htm'>世界頂尖的暗殺者轉生為異世界貴族</a> <br /> [月夜涙,れい亜,皇ハマオ] <br />
+              <font class="pagefoot">第 01 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/15322.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0011/15322.jpg!224x320?sign=1624535168-35168-0-b8e3896b8495912f1434a35edbc22622) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>8.5</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/15322.htm'>戀上月犬男子</a> <br /> [山田南平] <br />
+              <font class="pagefoot">第 021-25.5 話</font> <br />
+              <font class="filesize">2021-06-24</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/19297.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0019/19297.jpg!224x320?sign=1624629032-29032-0-74aa6ef21463bcc27a5f6c21179fd4d3) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>6.4</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/19297.htm'>小林家的龍女僕 露可亞是我的××</a> <br /> [クール教信者,歌麿] <br />
+              <font class="pagefoot">第 01 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/18430.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0017/18430.jpg!224x320?sign=1624594071-94071-0-ef5c64d081393119208adf48f148107c) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.6</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/18430.htm'>戰國千年</a> <br /> [藍迪漫娛,時代漫王] <br />
+              <font class="pagefoot">第 156-160 話</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/19986.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0020/19986.jpg!224x320brkch?sign=1624627431-27431-0-1ae2b8bbd15924cdc3b3499b2895d55f) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>6.0</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/19986.htm'>事件記者兔兔子</a> <br /> [丸山薫] <br />
+              <font class="pagefoot">第 02 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+        </tr> 
+
+        <tr class='listbg'>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/17951.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0016/17951.jpg!224x320brkch?sign=1624612558-12558-0-5bd602b16f7112cba34c66fb8731bb07) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.5</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/17951.htm'>晴空與陰空</a> <br /> [三秋縋,loundraw] <br />
+              <font class="pagefoot">第 02 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/19934.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0020/19934.jpg!224x320endch?sign=1624608656-08656-0-13735a012affc1d8cbbfa53df2e5445d) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>6.0</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/19934.htm'>泡沫之夏</a> <br /> [明曉溪,米沙] <br />
+              <font class="pagefoot">第 03 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/17881.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0016/17881.jpg!224x320endjp?sign=1624529841-29841-0-20b13895e1a1f5bb54cd552e7076f13d) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.9</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/17881.htm'>今際の國のアリス</a> <br /> [麻生羽呂] <br />
+              <font class="pagefoot">Vol. 18</font> <br />
+              <font class="filesize">2021-06-24</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/13946.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0008/13946.jpg!224x320?sign=1624584345-84345-0-30a9460d3bf7e5005f60a4e0a48883e1) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>7.8</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/13946.htm'>為醜女獻上花束</a> <br /> [作楽ロク] <br />
+              <font class="pagefoot">第 08 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/19981.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0020/19981.jpg!224x320endch?sign=1624588210-88210-0-b7f5c21a8e318de020b0da9b2fe04047) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>6.4</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/19981.htm'>被瘋狂溺愛的反派大小姐~濃密性愛對象是仆從</a> <br /> [Yuzushiwo] <br />
+              <font class="pagefoot">第 001-007 話</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/19978.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0020/19978.jpg!224x320endch?sign=1624585735-85735-0-226e8c5819a13a0403dad2a1f9f6a84b) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>6.0</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/19978.htm'>快樂天曆史漫談</a> <br /> [火鳥] <br />
+              <font class="pagefoot">第 02 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+            <td width='170px' height="200px" style="vertical-align:top;text-align:center;">
+              <a href='https://vol.moe/c/19977.htm'><div style="padding:0px 24px 0px 24px;">
+                <div class="img_book"
+                  style="background:url(https://img.mxomo.com/cover/book/0020/19977.jpg!224x320?sign=1624584917-84917-0-4309ef590866313def27382ba3b39319) no-repeat center;background-size:112px 160px;padding:0px;vertical-align:bottom;text-align:right;">
+                  <p style="padding:124px 5px 0px 0px;color:#FF7700;font-size:15px;text-shadow:1px 1px #FFFFFF, 1px -1px #FFFFFF, -1px 1px #FFFFFF, -1px -1px #FFFFFF"><b>6.0</b></p></div>
+              </div></a>
+              <a href='https://vol.moe/c/19977.htm'>如果作為冠軍的我成為了公主的小白臉的話。</a> <br /> [藍藤唯,霜降(Laplacian),杠憲太] <br />
+              <font class="pagefoot">第 01 卷</font> <br />
+              <font class="filesize">2021-06-25</font> <br /> <br />
+            </td>
+
+        </tr> 
+
+        <tr style="vertical-align:top">
+            <td class='listtitle' colspan="2">
+                &nbsp;全部
+                <br />
+            </td>
+            <td class='listtitle' colspan="1">
+                11430 部 / 545 頁
+                <br />
+            </td>
+            <td class='listtitle' colspan="4" style="height:56px;text-align:right;">
+                <button type="button" class="bt_sml_disa" disabled>◀︎翻十頁</button>
+                <button type="button" class="bt_sml_disa" disabled>上一頁</button>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/1.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">01</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/2.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">02</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/3.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">03</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/4.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">04</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/5.htm"><button type="button" name="link_page" class="bt_sml_defa" style="width:46px">05</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/2.htm"><button type="button" class="bt_sml_main">下一頁</button></a>
+                <a href="https://vol.moe/l/all,all,all,sortpoint,all,all,BL/11.htm"><button type="button" class="bt_sml_defa">翻十頁▶︎</button></a>
+                <br />
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<!-- content end -->
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<div class="hr_10"></div>
+<div class="nav_line"></div>
+<div class="hr_10"></div>
+
+
+<div id="page_foot" style="background:url(/img/footbg.png) top left no-repeat;">
+  <div class="pagefoot">
+    <a href="http://k.vol.moe/l/all,all,all,sortpoint,all,all,BL/1.htm">Kindle版</a> &nbsp; &nbsp;
+    <a href="https://m.vol.moe/l/all,all,all,sortpoint,all,all,BL/1.htm">手機版</a>
+  </div>
+  <div class="pagefoot">
+    本站內容均由網友上傳，如有爭議請聯繫 mox@mxm.moe
+  </div>
+  <div class="pagefoot">
+    &copy; 1041-2021 <a href="https://vol.moe">Mox.moe</a> ,&nbsp; Powered by MxM@TW &nbsp;
+  </div>
+</div>
+</body>
+</html>
+<script language='javascript'>
+    if ( document.getElementById("sel_order_sortpoint") ) {
+        document.getElementById("sel_order_sortpoint").setAttribute( "style", "background-color: #66CCFF; color: #000000" );
+    } // if
+    if ( document.getElementById("sel_lang_all") ) {
+        document.getElementById("sel_lang_all").setAttribute( "style", "background-color: #66CCFF; color: #000000" );
+    } // if
+    if ( document.getElementById("sel_blen_all") ) {
+        document.getElementById("sel_blen_all").setAttribute( "style", "background-color: #66CCFF; color: #000000" );
+    } // if
+    if ( document.getElementById("sel_status_all") ) {
+        document.getElementById("sel_status_all").setAttribute( "style", "background-color: #66CCFF; color: #000000" );
+    } // if
+    if ( document.getElementById("sel_region_all") ) {
+        document.getElementById("sel_region_all").setAttribute( "style", "background-color: #66CCFF; color: #000000" );
+    } // if
+    if ( document.getElementById("sel_type_all") ) {
+        document.getElementById("sel_type_all").setAttribute( "style", "background-color: #66CCFF; color: #000000" );
+    } // if
+    if ( document.getElementById("sel_igno_all") ) {
+        document.getElementById("sel_igno_all").setAttribute( "style", "background-color: #66CCFF; color: #000000" );
+        document.getElementById("sel_igno_all").innerText = "";
+    } // if
+    if ( document.getElementById("sel_type_耽美") ) {
+        document.getElementById("sel_type_耽美").setAttribute( "style", "background-color: #F8F8F8; color: #AFAFF8" );
+    } // if
+    if ( document.getElementById("sel_igno_耽美") ) {
+        document.getElementById("sel_igno_耽美").innerText = "";
+        document.getElementById("sel_igno_耽美").setAttribute( "style", "background-color: #F8F8F8; color: #AFAFAF" );
+        document.getElementById("sel_igno_clean_耽美").innerText = "O";
+    } // if
+    if ( document.getElementsByName("link_page") ) {
+        var obj_link = document.getElementsByName("link_page");
+        var i = 0;
+        var page_now = "01";
+        for( i=0; i<obj_link.length; i++ ) {
+            if ( obj_link[i].innerHTML == page_now ) obj_link[i].innerHTML = "<b><u>" + obj_link[i].innerHTML+ "</u></b>";
+            if ( obj_link[i].innerHTML.length <= 0 ) obj_link[i].style.display = "none";
+        } // for
+    } // if
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?032bfff3c38eeefc9db7c70d96d9cae4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+

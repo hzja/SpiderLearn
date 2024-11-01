@@ -1,0 +1,10 @@
+a = [
+"http:\/\/baike.baidu.com\/view\/1563.htm",
+"http:\/\/baike.baidu.com\/view\/1471.htm",
+"http:\/\/baike.baidu.com\/view\/2548.htm",
+"http:\/\/baike.baidu.com\/view\/6408.htm",
+"http:\/\/baike.baidu.com\/view\/3522.htm",
+"http:\/\/baike.baidu.com\/view\/4661.htm",
+"http:\/\/baike.baidu.com\/subview\/4809\/5274738.htm",
+"http:\/\/baike.baidu.com\/view\/1264.htm",
+]

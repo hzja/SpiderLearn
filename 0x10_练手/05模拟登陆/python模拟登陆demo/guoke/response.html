@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Refresh" content="5; http://www.guokr.com/">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <p id="delayShow" style="display: none;">正在登录，请稍候...</p>
+        <noscript>
+            <p>浏览器未启用或不支持Javascript，只能登录当前域名。</p>
+        </noscript>
+        <script>
+            var sso_ok = ( function() {
+                var total = 6,
+                    count = 0,
+                    success = "http:\/\/www.guokr.com\/";
+                return function() {
+                    count ++;
+                    if ( count === total ) {
+                        window.top.location = success;
+                    }
+                };
+            } )();
+
+            setTimeout(function() {
+                document.getElementById('delayShow').style.display='block';
+            }, 3000);
+        </script>
+        <script src="https://account.guokr.com/sso/?suppress_prompt=1&amp;rid=2538303873&amp;permanent=y&amp;success=https%3A%2F%2Fsslstatic.guokr.com%2Fjs%2Fsso_callback.js%3Fv%3D14c01d0cb454&amp;ukey=d8vtw4"></script>
+        <script src="https://www.guokr.com/sso/ask/?suppress_prompt=1&amp;rid=1556915901&amp;permanent=y&amp;success=https%3A%2F%2Fsslstatic.guokr.com%2Fjs%2Fsso_callback.js%3Fv%3D14c01d0cb454&amp;ukey=d8vtw4"></script>
+        <script src="https://www.guokr.com/sso/?suppress_prompt=1&amp;rid=3455231623&amp;permanent=y&amp;success=https%3A%2F%2Fsslstatic.guokr.com%2Fjs%2Fsso_callback.js%3Fv%3D14c01d0cb454&amp;ukey=d8vtw4"></script>
+        <script src="https://m.guokr.com/sso/?suppress_prompt=1&amp;rid=752605772&amp;permanent=y&amp;success=https%3A%2F%2Fsslstatic.guokr.com%2Fjs%2Fsso_callback.js%3Fv%3D14c01d0cb454&amp;ukey=d8vtw4"></script>
+        <script src="https://mooc.guokr.com/sso/?suppress_prompt=1&amp;rid=2180797339&amp;permanent=y&amp;success=https%3A%2F%2Fsslstatic.guokr.com%2Fjs%2Fsso_callback.js%3Fv%3D14c01d0cb454&amp;ukey=d8vtw4"></script>
+        <script src="https://m.guokr.com/sso/ask/?suppress_prompt=1&amp;rid=487224732&amp;permanent=y&amp;success=https%3A%2F%2Fsslstatic.guokr.com%2Fjs%2Fsso_callback.js%3Fv%3D14c01d0cb454&amp;ukey=d8vtw4"></script>
+    </body>
+</html>

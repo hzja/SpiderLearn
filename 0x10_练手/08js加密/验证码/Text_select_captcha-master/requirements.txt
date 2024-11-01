@@ -1,0 +1,8 @@
+numpy==1.18.5
+tensorboard
+terminaltables
+matplotlib
+pillow
+selenium
+requests
+
