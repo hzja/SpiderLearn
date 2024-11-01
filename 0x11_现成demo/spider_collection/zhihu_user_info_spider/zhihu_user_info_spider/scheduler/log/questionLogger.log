@@ -1,0 +1,333 @@
+2024-04-25 16:22:49 - ERROR: 热榜更新失败,请带着以下报错去github原仓库提出issue
+2024-04-25 16:22:49 - ERROR: 热榜更新失败,请带着以下报错去github原仓库提出issue
+2024-04-25 16:22:49 - ERROR: 热榜更新失败,请带着以下报错去github原仓库提出issue
+2024-04-25 16:22:49 - ERROR: None
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 103, in __wrapping_request
+    anonymity_proxy = self.__is_anonymity(headers=headers, is_https=https)
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 47, in __is_anonymity
+    proxy = self.__get_proxy().get("proxy")
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 30, in __get_proxy
+    return requests.get("http://{host}:{port}/get/".format(host=self.host, port=self.port)).json()
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 975, in send
+    self.connect()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 975, in send
+    self.connect()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /delete/?proxy= (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\requester\QuestionRequester.py", line 44, in __get_hot_question
+    response = proxy_pool.get(url=url, headers=ModelRequester._random_header(self), retry_count=100,
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 77, in get
+    return self.__wrapping_request(is_get=True, url=url, headers=headers, https=https, anonymity=anonymity,
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 125, in __wrapping_request
+    self.__delete_proxy(proxy)
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 34, in __delete_proxy
+    requests.get("http://{host}:{port}/delete/?proxy={proxy}".format(host=self.host, port=self.port, proxy=proxy))
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /delete/?proxy= (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-04-25 16:22:49 - ERROR: None
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 103, in __wrapping_request
+    anonymity_proxy = self.__is_anonymity(headers=headers, is_https=https)
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 47, in __is_anonymity
+    proxy = self.__get_proxy().get("proxy")
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 30, in __get_proxy
+    return requests.get("http://{host}:{port}/get/".format(host=self.host, port=self.port)).json()
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 975, in send
+    self.connect()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 975, in send
+    self.connect()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /delete/?proxy= (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\requester\QuestionRequester.py", line 44, in __get_hot_question
+    response = proxy_pool.get(url=url, headers=ModelRequester._random_header(self), retry_count=100,
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 77, in get
+    return self.__wrapping_request(is_get=True, url=url, headers=headers, https=https, anonymity=anonymity,
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 125, in __wrapping_request
+    self.__delete_proxy(proxy)
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 34, in __delete_proxy
+    requests.get("http://{host}:{port}/delete/?proxy={proxy}".format(host=self.host, port=self.port, proxy=proxy))
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /delete/?proxy= (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-04-25 16:22:49 - ERROR: None
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 103, in __wrapping_request
+    anonymity_proxy = self.__is_anonymity(headers=headers, is_https=https)
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 47, in __is_anonymity
+    proxy = self.__get_proxy().get("proxy")
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 30, in __get_proxy
+    return requests.get("http://{host}:{port}/get/".format(host=self.host, port=self.port)).json()
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 975, in send
+    self.connect()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "E:\python3_10_6\SourceCode\lib\http\client.py", line 975, in send
+    self.connect()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "F:\python-spider\spiderVenv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /delete/?proxy= (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\requester\QuestionRequester.py", line 44, in __get_hot_question
+    response = proxy_pool.get(url=url, headers=ModelRequester._random_header(self), retry_count=100,
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 77, in get
+    return self.__wrapping_request(is_get=True, url=url, headers=headers, https=https, anonymity=anonymity,
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 125, in __wrapping_request
+    self.__delete_proxy(proxy)
+  File "F:\python-spider\0x11_现成demo\spider_collection\zhihu_user_info_spider\zhihu_user_info_spider\proxypool\ProxyPool.py", line 34, in __delete_proxy
+    requests.get("http://{host}:{port}/delete/?proxy={proxy}".format(host=self.host, port=self.port, proxy=proxy))
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\python-spider\spiderVenv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /delete/?proxy= (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F7AC07820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))

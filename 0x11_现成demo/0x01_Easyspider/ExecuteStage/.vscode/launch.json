@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "configurations": [
+        {
+            "name": "Python: EasySpider",
+            "type": "python",
+            "request": "launch",
+            "program": "easyspider_executestage.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            //  "args": ["--ids", "[7]", "--read_type", "remote", "--headless", "0"]
+            // "args": ["--ids", "[9]", "--read_type", "remote", "--headless", "0", "--saved_file_name", "YOUTUBE"]
+            // "args": ["--ids", "[1]", "--headless", "0", "--user_data", "1", "--keyboard", "1"]
+            "args": "--ids '[3]' --user_data 1 --server_address http://localhost:8074 --config_folder '/Users/naibo/Documents/EasySpider/ElectronJS/' --headless 0 --read_type remote --config_file_name config.json --saved_file_name"
+        }
+    ]
+}
+// 这段代码是一个Visual Studio Code的配置文件，用于定义Python项目的调试配置。以下是代码的详细解释：
+// 1. `configurations`：这是一个数组，其中包含一个调试配置。
+// 2. `name`：调试配置的名称，这里是"Python: EasySpider"。
+// 3. `type`：调试配置的类型，这里是"python"。
+// 4. `request`：调试请求类型，这里是"launch"。
+// 5. `program`：要执行的Python脚本文件，这里是"easyspider_executestage.py"。
+// 6. `console`：调试时使用的控制台，这里是"integratedTerminal"。
+// 7. `justMyCode`：是否仅调试当前代码，这里是false，表示会调试整个项目。
+// 8. `args`：要传递给Python脚本的命令行参数。在这里，它被设置为以下字符串：
+//   - `--ids '[3]'`：传递一个包含ID的列表，这里是一个包含ID3的列表。
+//   - `--user_data 1`：传递一个用户数据参数，这里设置为1。
+//   - `--server_address http://localhost:8074`：传递一个服务器地址参数，这里设置为http://localhost:8074。
+//   - `--config_folder '/Users/naibo/Documents/EasySpider/ElectronJS/'`：传递一个配置文件夹参数，这里设置为"/Users/naibo/Documents/EasySpider/ElectronJS/"。
+//   - `--headless 0`：传递一个无头浏览器参数，这里设置为0，表示不使用无头浏览器。
+//   - `--read_type remote`：传递一个读取类型参数，这里设置为"remote"。
+//   - `--config_file_name config.json`：传递一个配置文件名参数，这里设置为"config.json"。
+//   - `--saved_file_name`：传递一个保存文件名参数，这里没有设置，因此为空字符串。

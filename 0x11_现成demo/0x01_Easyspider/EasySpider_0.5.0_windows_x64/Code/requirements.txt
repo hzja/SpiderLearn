@@ -1,0 +1,11 @@
+commandline_config==2.2.3
+requests==2.31.0
+selenium==4.5.0
+pyinstaller==5.9.0
+Pillow==9.4.0
+openpyxl==3.1.2
+pymysql==1.1.0
+lxml==4.9.2
+ddddocr==1.0.6
+pynput==1.7.6
+undetected-chromedriver==3.4.7

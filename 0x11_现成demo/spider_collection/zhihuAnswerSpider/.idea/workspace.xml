@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="561305ba-e7d7-479c-844e-5247272d0498" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zhihuAnswerSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zhihuAnswerSpider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/zhihu_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/zhihu_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhihu_user_info_spider/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhihu_user_info_spider/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhihu_user_info_spider/.idea/zhihu_user_info_spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhihu_user_info_spider/.idea/zhihu_user_info_spider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhihu_user_info_spider/zhihu_user_info_spider/scheduler/go.py" beforeDir="false" afterPath="$PROJECT_DIR$/../zhihu_user_info_spider/zhihu_user_info_spider/scheduler/go.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhihu_user_info_spider/zhihu_user_info_spider/scheduler/log/questionLogger.log" beforeDir="false" afterPath="$PROJECT_DIR$/../zhihu_user_info_spider/zhihu_user_info_spider/scheduler/log/questionLogger.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1xtlRcGdrOG0eB9dEU9cXM3uFdB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/Exam_reference/Exam1.0/ExamDjango1.0",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github clone\git_spider\zhihuAnswerSpider\spider" />
+      <recent name="D:\github clone\git_spider\zhihuAnswerSpider" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github clone\git_spider\zhihuAnswerSpider" />
+      <recent name="D:\github clone\git_spider\zhihuAnswerSpider\spider" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="561305ba-e7d7-479c-844e-5247272d0498" name="Default Changelist" comment="" />
+      <created>1631182257970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631182257970</updated>
+      <workItem from="1631182259263" duration="4322000" />
+      <workItem from="1631774058722" duration="363000" />
+      <workItem from="1631872274864" duration="6000" />
+      <workItem from="1632231717786" duration="2390000" />
+      <workItem from="1632390263349" duration="1048000" />
+      <workItem from="1632638772612" duration="599000" />
+      <workItem from="1632793986689" duration="611000" />
+      <workItem from="1632840847083" duration="952000" />
+      <workItem from="1632980573937" duration="740000" />
+      <workItem from="1633317078516" duration="617000" />
+      <workItem from="1633431566563" duration="18000" />
+      <workItem from="1633431623583" duration="3170000" />
+      <workItem from="1634002602024" duration="2062000" />
+      <workItem from="1634133436890" duration="616000" />
+      <workItem from="1634303125269" duration="2548000" />
+      <workItem from="1634349184886" duration="37000" />
+      <workItem from="1643460617894" duration="620000" />
+      <workItem from="1644308980567" duration="3870000" />
+      <workItem from="1644418550011" duration="2506000" />
+      <workItem from="1644466185778" duration="1341000" />
+      <workItem from="1644496158532" duration="2573000" />
+      <workItem from="1644626730621" duration="59000" />
+      <workItem from="1645086880620" duration="1609000" />
+      <workItem from="1645096947841" duration="58000" />
+      <workItem from="1645252162776" duration="14000" />
+      <workItem from="1646107716198" duration="5498000" />
+      <workItem from="1646123724930" duration="611000" />
+      <workItem from="1647267408354" duration="1319000" />
+      <workItem from="1647521956712" duration="651000" />
+      <workItem from="1647668678908" duration="5473000" />
+      <workItem from="1647920709960" duration="9000" />
+      <workItem from="1649647004111" duration="459000" />
+      <workItem from="1649647883282" duration="659000" />
+      <workItem from="1649676633845" duration="4320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider/zhihu_answer.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider/zhihu_answer.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+{
+    "python.analysis.extraPaths": [
+        "./code"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": null
+    }
+}
+
+// 这段代码是一个 JSON 配置文件，主要用于配置 Python 编程环境。
+// 1. `"python.analysis.extraPaths"` 属性用于指定额外的路径，使得代码分析工具可以找到该路径下的 Python 代码。在这个例子中，路径为 `./code`。
+// 2. `"[python]"` 属性表示针对 Python 语言的配置。
+// 3. `"editor.defaultFormatter"` 属性用于指定默认的代码格式化工具。在这个例子中，将其设置为 `null`，表示不使用任何默认的代码格式化工具。

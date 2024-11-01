@@ -1,0 +1,15 @@
+.DS_Store/
+.DS_Store
+.idea/
+node_modules/
+ServiceWrapper/
+/GPUCache
+C#/
+ServiceGrid/
+old_code/
+*.ini
+*.7z
+*.mp4
+*.tar.xz
+*.zip
+Data/
