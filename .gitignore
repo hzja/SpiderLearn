@@ -1,0 +1,8 @@
+node_modules/
+# 忽略 node_modules 目录
+
+spidervenv/
+# 忽略 spidervenv 目录
+
+*.json
+# 忽略所有 .json 结尾文件
