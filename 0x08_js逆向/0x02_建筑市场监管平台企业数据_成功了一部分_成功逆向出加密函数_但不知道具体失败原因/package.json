@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "crpyto-js": "^0.0.1-security",
+    "crypto-js": "^4.2.0"
+  }
+}
