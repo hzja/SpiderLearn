@@ -4,4 +4,4 @@
 from csdn import csdn
 
 if __name__ == "__main__":
-    csdn.spider("weixin_43263566", "cookie.txt")
+    csdn.spider("qq_44159028", "cookie.txt")

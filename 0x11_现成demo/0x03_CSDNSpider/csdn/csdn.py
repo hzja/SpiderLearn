@@ -72,7 +72,7 @@ class CSDN(object):
 			response = self.s.get(url=url, headers=self.headers)
 			html = response.text
 			soup = BeautifulSoup(html, "html.parser")
-			articles = soup.find_all('div', attrs={"class" : "article-item-box csdn-tracking-statistics"})
+			articles = soup.find_all('div', attrs={"class":"article-item-box csdn-tracking-statistics"})
 			for article in articles:
 				article_title = article.a.text.strip().replace('        ','：')
 				article_href = article.a['href']
@@ -136,5 +136,3 @@ def spider(username: str, cookie_path:str, folder_name: str = "blog"):
 	csdn.start()
 	csdn.write_readme()
 	csdn.get_all_articles()
-
-
