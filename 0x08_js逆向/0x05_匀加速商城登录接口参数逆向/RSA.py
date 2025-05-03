@@ -70,12 +70,13 @@ def login(csrf_token, very_code, cookies, username, encrypted_password):
 
 def main():
     username = input('请输入登录账号: ')
-    password = str(input('请输入登录密码: '))
+    password = input('请输入登录密码: ')
     if len(password) > 32:
         raise Exception('请输入正确的密码！')
     csrf_token, cookies = get_csrf_token_cookie()
     very_code = get_very_code(cookies)
     encrypted_password = get_encrypted_password(password)
+    print("加密后的密码:" + encrypted_password)
     login(csrf_token, very_code, cookies, username, encrypted_password)
 
 if __name__ == '__main__':
