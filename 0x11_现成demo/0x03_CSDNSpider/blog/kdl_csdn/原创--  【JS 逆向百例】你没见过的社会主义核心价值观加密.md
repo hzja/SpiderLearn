@@ -3,6 +3,12 @@
 
 # 【JS 逆向百例】你没见过的社会主义核心价值观加密
 
+
+          摘要生成于
+          [ C知道](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract) 
+          ，由 DeepSeek-R1 满血版支持，
+          [ 前往体验 &gt;](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract)
+
 > 
 关注微信公众号：K哥爬虫，持续分享爬虫进阶、JS/安卓逆向等技术干货！
 

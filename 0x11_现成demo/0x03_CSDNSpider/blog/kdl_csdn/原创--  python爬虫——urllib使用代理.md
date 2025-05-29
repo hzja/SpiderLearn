@@ -3,6 +3,12 @@
 
 # python爬虫——urllib使用代理
 
+
+          摘要生成于
+          [ C知道](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract) 
+          ，由 DeepSeek-R1 满血版支持，
+          [ 前往体验 &gt;](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract)
+
 收到粉丝私信说urllib库的教程还没写，好吧，urllib是python自带的库，没requests用着方便。本来嘛，python之禅（import this自己看）就说过，精简，效率，方便也是大家的追求。不过大家有要求，那就写一篇关于urllib的基础教程。
 
 ---

@@ -3,6 +3,12 @@
 
 # 【0基础学爬虫】爬虫基础之自动化工具 Playwright 的使用
 
+
+          摘要生成于
+          [ C知道](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract) 
+          ，由 DeepSeek-R1 满血版支持，
+          [ 前往体验 &gt;](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract)
+
 > 
 大数据时代，各行各业对数据采集的需求日益增多，网络爬虫的运用也更为广泛，越来越多的人开始学习网络爬虫这项技术，K哥爬虫此前已经推出不少爬虫进阶、逆向相关文章，为实现从易到难全方位覆盖，特设【0基础学爬虫】专栏，帮助小白快速入门爬虫，本期为自动化工具 playwright 的使用。
 

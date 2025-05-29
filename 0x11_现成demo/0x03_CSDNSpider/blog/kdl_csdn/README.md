@@ -388,6 +388,22 @@
 194. [原创
 ：  【JS逆向百例】某江 Hospital 逆向分析](https://blog.csdn.net/kdl_csdn/article/details/144817612)
 195. [原创
+：  【APP 逆向百例】某豆 app 逆向分析](https://blog.csdn.net/kdl_csdn/article/details/145118064)
+196. [原创
+：  【JS逆向百例】某盾 Blackbox 逆向分析](https://blog.csdn.net/kdl_csdn/article/details/145267241)
+197. [原创
+：  【验证码逆向专栏】最新某验四代动态参数逆向详解](https://blog.csdn.net/kdl_csdn/article/details/145555756)
+198. [原创
+：  【APP逆向百例】某蜂窝逆向分析](https://blog.csdn.net/kdl_csdn/article/details/145994458)
+199. [原创
+：  【验证码逆向专栏】某盾 v2 滑动验证码逆向分析](https://blog.csdn.net/kdl_csdn/article/details/145994584)
+200. [原创
+：  【APP 逆向百例】淘某热点 APP 逆向分析](https://blog.csdn.net/kdl_csdn/article/details/147037455)
+201. [原创
+：  【验证码识别专栏】某盾躲避障碍与某里图像复原验证码识别](https://blog.csdn.net/kdl_csdn/article/details/147387721)
+202. [原创
+：  【验证码逆向专栏】某采购网，360 磐云盾、文字点选验证码逆向分析](https://blog.csdn.net/kdl_csdn/article/details/147578484)
+203. [原创
 ：  JS 逆向之 Hook，吃着火锅唱着歌，突然就被麻匪劫了！](https://blog.csdn.net/kdl_csdn/article/details/120548182)
-196. [转载
+204. [转载
 ：  当爬虫工程师遇到 CTF丨2021 年 B 站 1024 安全攻防题解](https://blog.csdn.net/kdl_csdn/article/details/120924168)

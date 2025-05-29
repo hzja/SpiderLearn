@@ -3,10 +3,6 @@
 
 # 【JS 逆向百例】元素ID定位加密位置，某麻将数据逆向
 
-
-<img alt="" src="https://img-home.csdnimg.cn/images/20240715101418.png"/>
-
-
 #### 文章目录
 
 ---

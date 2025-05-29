@@ -3,6 +3,12 @@
 
 # Scrapy使用隧道代理403问题解决方案
 
+
+          摘要生成于
+          [ C知道](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract) 
+          ，由 DeepSeek-R1 满血版支持，
+          [ 前往体验 &gt;](https://ai.csdn.net?utm_source=cknow_pc_ai_abstract)
+
 ### scrapy使用隧道代理不换IP
 
 **客户现象**<br/> [快代理](https://www.kuaidaili.com/)隧道代理客户反馈使用隧道代理没有换IP，原因是使用了隧道代理但是目标网站还是403，跳验证码屏蔽等等，用户推断隧道没有更换代理IP
