@@ -11,6 +11,7 @@ function EncryptParams(t) {
       }
       return i
     }(16)
+    var e = "pY5WWpxPFZMUb5IR"
       , i = new JSEncrypt({}); //不知道为啥要用JSEncrypt
     i.setPublicKey("MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYEVrK/4Mahiv0pUJgTybx4J9P5dUT/Y0PuwMbk+gMU+jrZnBiXGv6/hCH1avIhoBcE535F8nJQQN3UavZdFkYidsoXuEnat3+eVTp3FslyhRwIBDF09v4vDhRtxFOT+R7uH7h/mzmyA2/+lfIMWGIrffXprYizbV76+YQKhoqFQIDAQAB");
     var r = i.encrypt(window.btoa(e))

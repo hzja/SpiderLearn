@@ -4,7 +4,7 @@ import hashlib
 import execjs
 
 def get_encrypted_params(user):
-        with open('EasyEncrpyt.js', 'r', encoding='utf-8') as f:
+        with open('Encrypt.js', 'r', encoding='utf-8') as f:
                 www_xiaomiaccount_js = f.read()
         encrypted_params = execjs.compile(www_xiaomiaccount_js).call('EncryptParams', {"user":user})
         return encrypted_params
