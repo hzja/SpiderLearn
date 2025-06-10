@@ -4,64 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e34e38f-3f30-4468-ae02-935c27440e1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  Scrapy使用隧道代理403问题解决方案.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  Scrapy使用隧道代理403问题解决方案.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  python爬虫——urllib使用代理.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  python爬虫——urllib使用代理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之scrapy的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之scrapy的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之代理的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之代理的基本使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之数据存储.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之数据存储.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之文件存储.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之文件存储.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之爬虫的基本介绍.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之爬虫的基本介绍.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之自动化工具 Appium 的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之自动化工具 Appium 的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之自动化工具 Playwright 的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【0基础学爬虫】爬虫基础之自动化工具 Playwright 的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】37网游登录接口参数逆向.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】37网游登录接口参数逆向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】你没见过的社会主义核心价值观加密.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】你没见过的社会主义核心价值观加密.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】元素ID定位加密位置，某麻将数据逆向.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】元素ID定位加密位置，某麻将数据逆向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】当乐网登录接口参数逆向.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】当乐网登录接口参数逆向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】房天下登录接口参数逆向.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】房天下登录接口参数逆向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】有道翻译接口参数逆向.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】有道翻译接口参数逆向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】网洛者反爬练习平台第五题-控制台反调试.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】网洛者反爬练习平台第五题-控制台反调试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】转变思路，少走弯路，X米加密分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS 逆向百例】转变思路，少走弯路，X米加密分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】cebupacificair 航空逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】cebupacificair 航空逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】东某航空数美指纹 v4 设备 ID 逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】东某航空数美指纹 v4 设备 ID 逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】携某 testab 参数补环境详解.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】携某 testab 参数补环境详解.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】某赚网 WebSocket 套 Webpack 逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】某赚网 WebSocket 套 Webpack 逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】爱疯官网登录分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】爱疯官网登录分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】音乐 wasm 逆向.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【JS逆向百例】音乐 wasm 逆向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】一个人、一年半、挣了2000万！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】一个人、一年半、挣了2000万！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】倒计时21天！事关爬虫er们能否平安回家过年！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】倒计时21天！事关爬虫er们能否平安回家过年！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】大众点评VS百度地图，论“数据权属”对爬虫开发的罪与罚！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】大众点评VS百度地图，论“数据权属”对爬虫开发的罪与罚！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】字节前高管，离职后入侵今日头条数据库，是阴谋、还是利诱？.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】字节前高管，离职后入侵今日头条数据库，是阴谋、还是利诱？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】某博士爬虫团伙贩卖个人信息，被一网打尽！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】某博士爬虫团伙贩卖个人信息，被一网打尽！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】百度、360八年乱战，robots 协议之战终落幕.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】百度、360八年乱战，robots 协议之战终落幕.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】网盘用的好，“艳照门”跑不了.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】网盘用的好，“艳照门”跑不了.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】蓄意突破反爬虫技术，爬取牌照信息.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【K哥爬虫普法】蓄意突破反爬虫技术，爬取牌照信息.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【k哥爬虫普法】爬虫第一案，侵犯个人隐私，“入侵”短视频服务器！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【k哥爬虫普法】爬虫第一案，侵犯个人隐私，“入侵”短视频服务器！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【k哥爬虫普法】非法入侵计算机信息系统，获取1500万余条个人信息！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【k哥爬虫普法】非法入侵计算机信息系统，获取1500万余条个人信息！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理API】查询隧道代理当前IP.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理API】查询隧道代理当前IP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理API】设置IP白名单.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理API】设置IP白名单.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理】开放代理使用教程.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理】开放代理使用教程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理】获取独享代理用户名密码.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【快代理】获取独享代理用户名密码.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【爬虫知识】浏览器开发者工具使用技巧总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【爬虫知识】浏览器开发者工具使用技巧总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码识别专栏】人均通杀点选验证码！Yolov5 + 孪生神经网络 or 图像分类 = 高精模型.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码识别专栏】人均通杀点选验证码！Yolov5 + 孪生神经网络 or 图像分类 = 高精模型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】vaptcha 手势验证码逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】vaptcha 手势验证码逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】xx80 邮箱多种类验证码逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】xx80 邮箱多种类验证码逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】最新某验三代滑块逆向分析，干掉所有的 w 参数！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】最新某验三代滑块逆向分析，干掉所有的 w 参数！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某多多验证码逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某多多验证码逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某安登录流程详解与验证码逆向分析与识别.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某安登录流程详解与验证码逆向分析与识别.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某某滑块逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某某滑块逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某里 v2 滑动验证码分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某里 v2 滑动验证码分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某验三代、四代一键通过模式逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某验三代、四代一键通过模式逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某验二代滑块验证码逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  【验证码逆向专栏】某验二代滑块验证码逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  人均瑞数系列，瑞数 5 代 JS 逆向分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  人均瑞数系列，瑞数 5 代 JS 逆向分析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  吾爱破解 2023 春节解题领红包之 Web 题解.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  吾爱破解 2023 春节解题领红包之 Web 题解.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  国内 AI 成图第一案！你来你会怎么判？.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  国内 AI 成图第一案！你来你会怎么判？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  爬虫“拥抱大模型”，有没有搞头？.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  爬虫“拥抱大模型”，有没有搞头？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/kdl_csdn/原创--  通杀无限 debugger，目前只有 1% 的人知道！.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/kdl_csdn/原创--  通杀无限 debugger，目前只有 1% 的人知道！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="7e34e38f-3f30-4468-ae02-935c27440e1b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
