@@ -79,6 +79,7 @@ def Login(user,password):
     response = requests.session().post(url=login_url, headers=login_headers,cookies=cookies, data=data)
     print(response.text)
 
-user  = input("请输入账号：")
-password = input("请输入密码：")
+user = "2533105837"
+password = "647561hzj"
+
 Login(user, password)
