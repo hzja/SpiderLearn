@@ -2276,8 +2276,8 @@
         }
 
 function get_user_info() {
-    const user = "2533105837"
-    const password ="647561hzj"
+    const user = "2359276388"
+    const password ="tb340588*"
     const EncryptParam = EncryptParams({
       "user":user 
     })
