@@ -6,3 +6,6 @@ spidervenv/
 
 *.json
 # 忽略所有 .json 结尾文件
+
+.idea
+# 忽略.idea目录

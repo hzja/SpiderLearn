@@ -4,4 +4,4 @@
 from csdn import csdn
 
 if __name__ == "__main__":
-    csdn.spider("kdl_csdn", "cookie.txt")
+    csdn.spider("perpetual_blue", "cookie.txt")
