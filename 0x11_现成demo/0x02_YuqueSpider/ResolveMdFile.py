@@ -1,4 +1,4 @@
-#written by hzj
+#written by Byt3h
 #
 import os
 import re
@@ -17,7 +17,7 @@ def dealfile(filename):
         filecontent = filecontent + line
 
     # 匹配所有的图片连接
-    urls = re.findall(r"https://cdn.nlark.com/yuque/[%&=\#\w./-]+", filecontent)
+    urls = re.findall(r"https://cdn.nlark.com/yuque/[%&=\#\w./-]+.png", filecontent)
 
     # 创建img文件夹保存图片
     print("正在创建img文件夹--------------------")

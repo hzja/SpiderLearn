@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-import os, re
+import os, re, time
 import requests
 from bs4 import BeautifulSoup, Comment
 from .tomd import Tomd
@@ -79,25 +79,30 @@ class CSDN(object):
 				self.TaskQueue.append((article_title, article_href))
 	
 	def get_md(self, url):
-		response = self.s.get(url=url, headers=self.headers)
-		html = response.text
-		soup = BeautifulSoup(html, 'lxml')
-		content = soup.select_one("#mainBox > main > div.blog-content-box")
-		# 删除注释
-		for useless_tag in content(text=lambda text: isinstance(text, Comment)):
-			useless_tag.extract()
-		# 删除无用标签
-		tags = ["svg", "ul", ".hljs-button.signin"]
-		delete_ele(content, tags)
-		# 删除标签属性
-		attrs = ["class", "name", "id", "onclick", "style", "data-token", "rel"]
-		delete_ele_attr(content,attrs)
-		# 删除空白标签
-		eles_except = ["img", "br", "hr"]
-		delete_blank_ele(content, eles_except)
-		# 转换为markdown
-		md = Tomd(str(content)).markdown
-		return md
+		try:
+			time.sleep(5)
+			response = self.s.get(url=url, headers=self.headers)
+			html = response.text
+			soup = BeautifulSoup(html, 'lxml')
+			content = soup.select_one("#mainBox > main > div.blog-content-box")
+			# 删除注释
+			for useless_tag in content(text=lambda text: isinstance(text, Comment)):
+				useless_tag.extract()
+			# 删除无用标签
+			tags = ["svg", "ul", ".hljs-button.signin"]
+			delete_ele(content, tags)
+			# 删除标签属性
+			attrs = ["class", "name", "id", "onclick", "style", "data-token", "rel"]
+			delete_ele_attr(content,attrs)
+			# 删除空白标签
+			eles_except = ["img", "br", "hr"]
+			delete_blank_ele(content, eles_except)
+			# 转换为markdown
+			md = Tomd(str(content)).markdown
+			return md
+		except Exception as e:
+			print("遇到的错误：", e)
+			pass
 
 	def write_readme(self):
 		print("+"*100)
@@ -115,19 +120,22 @@ class CSDN(object):
 		self.url_num = 1
 	
 	def get_all_articles(self):
+
 		while len(self.TaskQueue) > 0:
-			(article_title,article_href) = self.TaskQueue.pop()
-			file_name = re.sub(r'[\/:：*?"<>|\n]','-', article_title) + ".md"
-			artical_path = result_file(folder_username=self.username, file_name=file_name, folder_name=self.folder_name)
+			try:
+				(article_title,article_href) = self.TaskQueue.pop()
+				file_name = re.sub(r'[\/:：*?"<>|\n]','-', article_title) + ".md"
+				artical_path = result_file(folder_username=self.username, file_name=file_name, folder_name=self.folder_name)
 
-			md_head = "# " + article_title + "\n"
-			md = md_head + self.get_md(article_href)
-			print("[++++] 正在处理URL：{}".format(article_href))
-			with open(artical_path, "w", encoding="utf-8") as artical_file:
-				artical_file.write(md)
-			self.url_num += 1
-
-
+				md_head = "# " + article_title + "\n"
+				md = md_head + self.get_md(article_href)
+				print("[++++] 正在处理URL：{}".format(article_href))
+				with open(artical_path, "w", encoding="utf-8") as artical_file:
+					artical_file.write(md)
+				self.url_num += 1
+			except Exception as e:
+				print("遇到的困难：", e)
+				pass
 
 def spider(username: str, cookie_path:str, folder_name: str = "blog"):
 	if not os.path.exists(folder_name):
